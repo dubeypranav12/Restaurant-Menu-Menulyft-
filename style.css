@@ -68,7 +68,7 @@ a {
     transform: translateY(0);
 }
 
-.eyebrow {
+.menu-label {
     color: var(--rust);
     font-size: 0.76rem;
     font-weight: 700;
@@ -260,14 +260,14 @@ a {
     animation: reveal-up 0.8s ease both;
 }
 
-.hero .eyebrow {
+.hero .menu-label {
     display: flex;
     align-items: center;
     color: #e5a45b;
     gap: 12px;
 }
 
-.hero .eyebrow span {
+.hero .menu-label span {
     width: 34px;
     height: 1px;
     background: currentColor;
@@ -699,7 +699,7 @@ a {
     justify-content: center;
 }
 
-.offer-main .eyebrow {
+.offer-main .menu-label {
     color: #e9aa62;
 }
 
@@ -708,7 +708,7 @@ a {
     color: white;
 }
 
-.offer-main p:not(.eyebrow) {
+.offer-main p:not(.menu-label) {
     max-width: 570px;
     margin-bottom: 30px;
     color: rgba(255, 255, 255, 0.67);
@@ -820,7 +820,7 @@ a {
     line-height: 1.55;
 }
 
-.about-copy > p:not(.eyebrow):not(.lead) {
+.about-copy > p:not(.menu-label):not(.lead) {
     color: #656a61;
 }
 
